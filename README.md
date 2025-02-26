@@ -18,7 +18,7 @@ The model categorizes brain MRI images into four classes:
 
 ## **Dataset**
 The dataset consists of MRI images structured into four labeled folders corresponding to the disease stages. 
-The images are preprocessed and transformed with resizing, normalization, and data augmentation techniques to improve model performance.
+The images are preprocessed and transformed with resizing, normalization, and data augmentation techniques to improve model performance. The dataset used is located
 [Dataset here](https://github.com/MbungaiMichael/Alzheimer-s-Classification-using-CNN/tree/main/dataset)
 
 ## **Model Architecture**
@@ -28,7 +28,7 @@ It is trained using the CrossEntropyLoss function with an Adam optimizer.
 ## **Training & Evaluation**
 The model is trained on a dataset split into training and validation sets. 
 The training loop updates weights using backpropagation, while the validation set is used to monitor performance and avoid overfitting.
-[Project here](https://github.com/MbungaiMichael/Alzheimer-s-Classification-using-CNN/blob/main/Alzheimer_classification.ipynb)
+The project is located [Project here](https://github.com/MbungaiMichael/Alzheimer-s-Classification-using-CNN/blob/main/Alzheimer_classification.ipynb)
 ## **Requirements**
 - Python
 - PyTorch
